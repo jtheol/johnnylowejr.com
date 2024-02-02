@@ -1,5 +1,5 @@
 # Basic config
-baseURL = "https://jtheol.github.io"
+baseURL = "https://johnnylowejr.com"
 theme = "hugo-bearcub"
 copyright = "Johnny Lowe (CC BY 4.0)"
 defaultContentLanguage = "en"
