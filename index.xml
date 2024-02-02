@@ -127,7 +127,7 @@ What is Hypothesis Testing? At its core, hypothesis testing is a statistical met
 </ol>
 <p>Hypothesis testing is a powerful tool for making data-driven decisions and drawing meaningful conclusions from research findings. By understanding the basic principles and techniques of hypothesis testing, researchers and analysts can confidently analyze data, identify patterns, and contribute valuable insights to their respective fields. As we continue to explore the intricacies of hypothesis testing, we unlock new possibilities for discovery and innovation in the dynamic world of statistics and data science.</p>
 <h3 id="hypothesis-testing-in-practice">Hypothesis Testing In Practice</h3>
-<p>Here&rsquo;s an example of hypothesis testing in Python using the two-sample t-test to compare the average exam scores between two groups of students: Group A and Group B.</p>
+<p>Example of hypothesis testing in Python using the two-sample t-test to compare the average exam scores between two groups of students: Group A and Group B.</p>
 
 
 
