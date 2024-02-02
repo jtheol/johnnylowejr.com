@@ -55,7 +55,7 @@ Hypothesis testing is a powerful tool for making data-driven decisions and drawi
 
 ### Hypothesis Testing In Practice
 
-Here's an example of hypothesis testing in Python using the two-sample t-test to compare the average exam scores between two groups of students: Group A and Group B.
+Example of hypothesis testing in Python using the two-sample t-test to compare the average exam scores between two groups of students: Group A and Group B.
 
 ```python
 from scipy import stats
