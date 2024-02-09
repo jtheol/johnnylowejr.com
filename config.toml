@@ -75,5 +75,3 @@ enableRobotsTXT = true
   [params.author]
     name = "Johnny Lowe" # Your name as shown in the RSS feed metadata
     email = "" # Added to the footer so readers can reply to posts
-
-
