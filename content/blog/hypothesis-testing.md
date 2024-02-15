@@ -2,6 +2,9 @@
 title = 'Hypothesis Testing'
 date = 2024-02-02T11:01:34-05:00
 draft = false
+tags = [
+    "hypothesis-testing",
+]
 +++
 
 Hypothesis testing is a statistical method used to make inference about a population based on a sample of the population.

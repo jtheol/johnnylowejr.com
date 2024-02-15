@@ -37,9 +37,12 @@ weight: 2
 <ul class="project-list">
   <li class="project">
     <h3>Insights Into Ransomware</h3>
-    <p>Extracted structured information from unstructured text data related to ransomware negotiations
-using a LLM and applied exploratory and natural language processing methods to obtain meaningful insights. Analyzed quantitative
-information on global ransomware attacks across multiple industries and ransomware strains. 
+    <p>
+      Extracted structured information from unstructured text data related to ransomware negotiations
+  and 60,000+ internal ransomware group conversations and applied exploratory and natural language processing methods to obtain
+  meaningful insights. Analyzed quantitative information on global ransomware attacks across multiple industries and ransomware
+  strains.
+    </p>
   </li>
 
   <li class="project">
@@ -56,7 +59,8 @@ collected by the Canadian Institute for Cybersecurity</p>
   <li class="project">
     <h3>Humanitarian Aid Worker Security Incidents</h3>
     <a href="https://public.tableau.com/app/profile/johnny.lowe/viz/HumanitarianAidWorkerSecurityIncidents/HumanitarianAidWorkerSecurityIncidents?publish=yes">View on Tableau Public</a>
-    <p>Built a Tableau dashboard to visualize humanitarian aid worker security incidents,with functionality to analyze trends in tactics, view affiliations of the victims, and the countries where they were affected most.
+    <p>Built a Tableau dashboard to visualize humanitarian aid worker security incidents,
+with functionality to analyze trends in tactics, total incidents, and the countries where they were affected most
     <div class='tableauPlaceholder' id='viz1707515706175' style='position: relative'>
    <noscript><a href='#'><img alt='Humanitarian Aid Worker Security Incidents ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CT&#47;CT9M3CP3R&#47;1_rss.png' style='border: none' /></a></noscript>
    <object class='tableauViz'  style='display:none;'>

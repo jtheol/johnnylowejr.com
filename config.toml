@@ -39,6 +39,7 @@ enableRobotsTXT = true
 
   # The path to your favicon
   favicon = "images/favicon.png"
+  math = true
 
   # These images will show up when services want to generate a preview of a link
   # to your site. Ignored if `generateSocialCard = true`. For more information
