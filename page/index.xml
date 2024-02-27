@@ -137,7 +137,13 @@ strains.
 &lt;/li>
 &lt;li class="project">
 &lt;h3>Topic Modeling in Customer Feedback: Insights from Comcast Complaints&lt;/h3>
-&lt;p>Examined consumer complaints about Comcast using a data set spanning from 2000-2016&lt;/p>
+&lt;p>Examined consumer complaints about Comcast using a data set spanning from 2000-2016.
+&lt;pre>&lt;code>Firstly, we preprocess the data and divides complaints based on their ratings. Then, we employ TF-IDF vectorization to identify the most common words in negative comments, focusing on topics like Comcast packages and customer support wait times.
+&lt;/code>&lt;/pre>
+&lt;p>Utilizing Latent Dirichlet Allocation (LDA), identify topics within the negative complaints and prints key terms per topic, and further examine complaints related to customer service.&lt;/p>
+&lt;p>Lastly, utilize BERTopic, a state-of-the-art topic modeling technique, to identify and visualize topics within negative complaints, notably highlighting issues similar to customer service complaints.&lt;/p>
+&lt;p>The process provides an insightful exploration of consumer sentiments, shedding light on prevalent issues and sentiments within Comcast consumer complaints.
+&lt;/p>&lt;/p>
 &lt;/li>
 &lt;li class="project">
 &lt;h3>Analysis and Classification of Tor Network Traffic&lt;/h3>
