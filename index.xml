@@ -1,294 +1,312 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Johnny Lowe</title><link>https://johnnylowejr.com/</link><description>Recent content on Johnny Lowe</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>Johnny Lowe (CC BY 4.0)</copyright><lastBuildDate>Fri, 23 Feb 2024 14:55:29 -0500</lastBuildDate><atom:link href="https://johnnylowejr.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Projects</title><link>https://johnnylowejr.com/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://johnnylowejr.com/projects/</guid><description>&lt;!DOCTYPE html> Project Showcase Insights Into Ransomware Extracted structured information from unstructured text data related to ransomware negotiations and 60,000+ internal ransomware group conversations and applied exploratory and natural language processing methods to obtain meaningful insights. Analyzed quantitative information on global ransomware attacks across multiple industries and ransomware strains. Topic Modeling in Customer Feedback: Insights from Comcast Complaints Examined consumer complaints about Comcast using a data set spanning from 2000-2016</description><content:encoded><![CDATA[<style>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Johnny Lowe</title><link>https://johnnylowejr.com/</link><description>Recent content on Johnny Lowe</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Johnny Lowe</copyright><lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://johnnylowejr.com/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://johnnylowejr.com/about/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><guid>https://johnnylowejr.com/about/</guid><description>&lt;p>I am very interested in Natural Language Processing (NLP) and large language models. In my free time, I have used my skills in data analysis, machine learning, and data visualization to work independently on data I find interesting. I tackle challenging problems with a multidisciplinary attitude and leverage any technology to accomplish a task. I also enjoy hiking, kickboxing, and cooking.&lt;/p>
+&lt;p>&lt;strong>Technical Skills:&lt;/strong> Python, R, SQL, Data Science, Machine Learning, Statistics, HTML/CSS, LaTeX&lt;br>
+&lt;strong>Tools:&lt;/strong> scikit-learn, NumPy, SciPy, matplotlib, seaborn, plotly-dash, Django, Flask, Git/GitHub, Dataiku, JMP, Minitab, RStudio, Jupyter notebooks, Tableau, Power BI&lt;br>
+&lt;strong>Languages:&lt;/strong> English, Italian&lt;/p></description></item><item><title>Datasets</title><link>https://johnnylowejr.com/datasets/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><guid>https://johnnylowejr.com/datasets/</guid><description>&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+&lt;meta charset="UTF-8">
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+&lt;link rel="preconnect" href="https://fonts.googleapis.com">
+&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+&lt;link href="https://fonts.googleapis.com/css2?family=Varela&amp;display=swap" rel="stylesheet">
+&lt;title>Interesting Datasets&lt;/title>
+&lt;style>
+.container {
+font-family:"Varela", sans-serif;
+font-size:12px;
+max-width: 800px;
+margin: 20px auto;
+padding: 20px;
+background-color: #1D1F22;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+height: 400px; /* Set a fixed height for the container */
+overflow-y: auto; /* Enable vertical scrolling */
+}
+ul {
+list-style: none;
+padding: 0;
+}
+li {
+padding: 10px 0;
+border-bottom: 1px solid #ccc;
+display: none; /* Hide list items by default */
+}
+li.show {
+display: block; /* Show list items that match the search */
+}
+a:hover {
+text-decoration: underline;
+}
+input[type="text"] {
+font-family:"Varela", sans-serif;
+width: 100%;
+padding: 12px;
+margin-bottom: 15px;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 4px;
+outline: none;
+font-size: 16px;
+transition: border-color 0.3s ease;
+}
+input[type="text"]:focus {
+border-color: #007bff;
+}
+&lt;/style>
+&lt;/head>
+&lt;body>
+&lt;h1>Curated Dataset Collection&lt;/h1>
+&lt;input type="text" id="searchInput" placeholder="Start typing to search datasets...">
+&lt;div class="container">
+&lt;ul id="datasetList">
+&lt;li>
+&lt;a href="https://www.aidworkersecurity.org/incidents/search format=csv">Humanitarian Aid Worker Security Incidents&lt;/a>
+&lt;p>
+The AWSD (Aid Worker Security Database) is a global compilation of reports detailing major security incidents involving deliberate acts of violence against aid workers. Incident data is collected from public sources through systematic media filtering using a data scraper tool, as well as directly from aid organizations and security entities. Incidents are crosschecked and verified annually, and the database includes parameters such as date, location, number of aid workers affected, institutional affiliation, and outcome of the incident.
+&lt;/p>
+&lt;p>Humanitarian Outcomes, Aid Worker Security Database, aidworkersecurity.org&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;a href="https://www.comparitech.com/blog/information-security/global-ransomware-attacks/">Global Ransomware Attacks&lt;/a>
+&lt;p>The dataset presents information on ransomware attacks worldwide, spanning from 2018 to the present day. It includes details such as attack locations, affected sectors (healthcare, education, government, and business), ransom amounts, payment statuses, targeted entities, industries, and ransomware strains. Researchers compile data from country reports, industry news, and cybersecurity databases to document the latest ransomware incidents impacting businesses, healthcare organizations, educational institutions, and government agencies globally.&lt;/p>
+&lt;p>https://www.comparitech.com/&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;a href="https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2024/pvqr-7yc4/data_preview">NYC Parking Violations&lt;/a>
+&lt;p>The dataset offers information on Parking Violations Issued from July 1, 2023, to June 30, 2024, aligning with the fiscal year cycle of New York City. It outlines violations issued within this timeframe, capturing their status at the time of issuance without reflecting subsequent updates such as payments, dismissals via hearings, or other status changes. Users seeking current status updates on outstanding parking violations are directed to consult the Open Parking &amp; Camera Violations dataset.&lt;/p>
+&lt;p>NYC OpenData&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;a href="https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/ShipmentsCancellationsQTR1FY24.xlsx">LESO Shipments &amp; Cancellations&lt;/a>
+&lt;p>
+The update provides the latest quarterly report on accountable property held by participating agencies, categorized into Controlled and Non-controlled. Controlled property remains on the LESO (Law Enforcement Support Office) property book and remains accountable to the Department of Defense (DoD). Conversely, Non-controlled property comprises common items sold to the general public by DLA (Defense Logistics Agency). The data offers a snapshot of Non-controlled property, representing the majority of transfers, and after one year, Non-controlled items become the property of the law enforcement agency and are removed from the LESO database.&lt;/p>
+&lt;p>Defense Logistics Agency&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;a href="http://205.174.165.80/CICDataset/ISCX-Tor-NonTor-2017/">Tor Network Dataset&lt;/a>
+&lt;p>The "Tor-nonTor dataset (ISCXTor2016)" is a comprehensive collection designed to represent real-world traffic diversity, encompassing various communication channels and browsing activities. It features categorized traffic types, including browsing, email, chat, audio streaming, video streaming, FTP, VoIP, and P2P. Browsing traffic consists of HTTP and HTTPS sessions, while email encompasses Thunderbird client and Gmail accounts using SMTP/S, POP3/SSL, and IMAP/SSL protocols. Chat traffic includes Facebook, Hangouts, Skype, IAM, and ICQ via the Pidgin application. Additionally, audio and video streaming are represented by Spotify, YouTube (HTML5 and flash versions), and Vimeo. FTP sessions involve Skype file transfers, SFTP, and FTPS, while VoIP traffic covers Facebook, Hangouts, and Skype voice calls. P2P traffic represents file-sharing protocols such as BitTorrent, derived from Kali Linux distribution torrents and captured with Vuze application across various upload and download speeds.&lt;/p>
+&lt;p>Canadian Institute for Cybersecurity&lt;/p>
+&lt;/li>
+&lt;!-- Add more datasets as needed -->
+&lt;/ul>
+&lt;/div>
+&lt;script>
+document.getElementById('searchInput').addEventListener('input', function() {
+var searchValue = this.value.toLowerCase();
+var listItems = document.querySelectorAll('#datasetList li');
+listItems.forEach(function(item) {
+var text = item.textContent.toLowerCase();
+var isVisible = text.includes(searchValue);
+item.classList.toggle('show', isVisible);
+});
+});
+&lt;/script>
+&lt;/body>
+&lt;/html></description></item><item><title>Hypothesis Testing</title><link>https://johnnylowejr.com/p/hypothesis-testing/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><guid>https://johnnylowejr.com/p/hypothesis-testing/</guid><description>&lt;p>Hypothesis testing is a statistical method used to make inference about a population based on a sample of the population.&lt;/p>
+&lt;h2 id="what-is-hypothesis-testing">What is Hypothesis Testing?&lt;/h2>
+&lt;p>At its core, hypothesis testing is a statistical method used to determine whether there is enough evidence in a sample of data to infer that a particular condition is true for a population. The process involves formulating a hypothesis, collecting and analyzing data, and drawing conclusions based on statistical evidence.&lt;/p>
+&lt;h2 id="the-basic-framework-null-and-alternative-hypotheses">The Basic Framework: Null and Alternative Hypotheses&lt;/h2>
+&lt;p>In hypothesis testing, we start with two competing hypotheses:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Null Hypothesis (H0):&lt;/strong> This is the default assumption that there is no significant difference or effect in the population. It represents the status quo or the absence of an effect.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Alternative Hypothesis (H1 or Ha):&lt;/strong> This is the hypothesis that contradicts the null hypothesis. It suggests that there is a significant difference or effect in the population.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="key-concepts-in-hypothesis-testing">Key Concepts in Hypothesis Testing&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Significance Level (α):&lt;/strong> The significance level, denoted by α, represents the probability of rejecting the null hypothesis when it is actually true. Commonly used significance levels include 0.05 and 0.01.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>P-value:&lt;/strong> The p-value is the probability of observing the test statistic or a more extreme value under the null hypothesis. A low p-value indicates strong evidence against the null hypothesis, leading to its rejection.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Test Statistic:&lt;/strong> The test statistic is a numerical summary of the sample data used to assess the strength of evidence against the null hypothesis.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="common-types-of-hypothesis-tests">Common Types of Hypothesis Tests&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Z-test and T-test:&lt;/strong> Used to compare means between two groups or to test hypotheses about population means.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Chi-Square Test:&lt;/strong> Used to test hypotheses about the association between categorical variables.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>ANOVA (Analysis of Variance):&lt;/strong> Used to compare means across multiple groups.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="steps-in-hypothesis-testing">Steps in Hypothesis Testing&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Formulate Hypotheses:&lt;/strong> Clearly state the null and alternative hypotheses based on the research question.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Choose a Significance Level:&lt;/strong> Determine the desired level of confidence for the test.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Select the Appropriate Test:&lt;/strong> Choose the appropriate hypothesis test based on the type of data and research question.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Collect Data:&lt;/strong> Collect and organize the relevant data for analysis.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Calculate the Test Statistic:&lt;/strong> Compute the test statistic using the sample data and the chosen hypothesis test.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Determine the P-value:&lt;/strong> Calculate the p-value associated with the test statistic.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Make a Decision:&lt;/strong> Compare the p-value to the significance level. If the p-value is less than α, reject the null hypothesis; otherwise, fail to reject the null hypothesis.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Hypothesis testing is a powerful tool for making data-driven decisions and drawing meaningful conclusions from research findings. By understanding the basic principles and techniques of hypothesis testing, researchers and analysts can confidently analyze data, identify patterns, and contribute valuable insights to their respective fields. As we continue to explore the intricacies of hypothesis testing, we unlock new possibilities for discovery and innovation in the dynamic world of statistics and data science.&lt;/p>
+&lt;h3 id="hypothesis-testing-in-practice">Hypothesis Testing In Practice&lt;/h3>
+&lt;p>Example of hypothesis testing in Python using the two-sample t-test to compare the average exam scores between two groups of students: Group A and Group B.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">scipy&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">stats&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">numpy&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">np&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Sample data for exam scores&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">group_a_scores&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">np&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">array&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="mi">85&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">78&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">92&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">88&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">95&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">84&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">91&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">79&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">87&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">90&lt;/span>&lt;span class="p">])&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">group_b_scores&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">np&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">array&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="mi">72&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">68&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">74&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">70&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">65&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">71&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">75&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">69&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">73&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">67&lt;/span>&lt;span class="p">])&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Perform two-sample t-test&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">t_statistic&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">p_value&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">stats&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">ttest_ind&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">group_a_scores&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">group_b_scores&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Define significance level&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">alpha&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mf">0.05&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Print results&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;T-statistic:&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">t_statistic&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;P-value:&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">p_value&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="n">p_value&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">alpha&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Reject null hypothesis: There is a significant difference in exam scores between the two groups.&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">else&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Fail to reject null hypothesis: There is no significant difference in exam scores between the two groups.&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>P-Values</title><link>https://johnnylowejr.com/p/p-values/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><guid>https://johnnylowejr.com/p/p-values/</guid><description>&lt;p>P-values are values between 0 and 1 that tell us the strength of evidence against the null hypothesis. A lower p-value suggests stronger evidence against the null hypothesis, indicating that the observed data is less likely to be due to random chance alone. We establish a significance level, denoted by $\alpha$, as the threshold for rejecting the null hypothesis, typically set at $\alpha$ = 0.05.&lt;/p>
+&lt;p>We interpret the p-value by checking whether or not it is &lt;strong>less than or equal to&lt;/strong> or &lt;strong>greater than&lt;/strong> the level of signifiance we selected. If the p-value $&amp;lt;=$ $\alpha$, then we reject the null hypothesis and determine that the observed data is unlikely to have occured simply by chance; however, if the p-value $&amp;gt; \alpha$, then we fail to reject the null hypothesis and determine the observed data could have occured due to random chance.&lt;/p></description></item><item><title>Projects</title><link>https://johnnylowejr.com/projects/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><guid>https://johnnylowejr.com/projects/</guid><description>&lt;style>
 .project-list {
-  list-style-type: none;
-  padding: 0;
+list-style-type: none;
+padding: 0;
 }
-
 .project {
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin-bottom: 20px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+border: 1px solid #ccc;
+padding: 20px;
+margin-bottom: 20px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .project:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+transform: translateY(-5px);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-
-</style>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Showcase</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<ul class="project-list">
-  <li class="project">
-    <h3>Insights Into Ransomware</h3>
-    <p>
-      Extracted structured information from unstructured text data related to ransomware negotiations
-  and 60,000+ internal ransomware group conversations and applied exploratory and natural language processing methods to obtain
-  meaningful insights. Analyzed quantitative information on global ransomware attacks across multiple industries and ransomware
-  strains.
-    </p>
-  </li>
-  <li class="project">
-    <h3>Topic Modeling in Customer Feedback: Insights from Comcast Complaints</h3>
-    <p>Examined consumer complaints about Comcast using a data set spanning from 2000-2016</p>
-  </li>
-  <li class="project">
-    <h3>Analysis and Classification of Tor Network Traffic</h3>
-    <p>Analyzed data and built a model to classify Tor traffic with using data
-collected by the Canadian Institute for Cybersecurity</p>
-  </li>
-  <li class="project">
-    <h3>Humanitarian Aid Worker Security Incidents</h3>
-    <a href="https://public.tableau.com/app/profile/johnny.lowe/viz/HumanitarianAidWorkerSecurityIncidents/HumanitarianAidWorkerSecurityIncidents?publish=yes">View on Tableau Public</a>
-    <p>Built a Tableau dashboard to visualize humanitarian aid worker security incidents,
+&lt;/style>
+&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+&lt;meta charset="UTF-8">
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+&lt;title>Project Showcase&lt;/title>
+&lt;link rel="stylesheet" href="styles.css">
+&lt;/head>
+&lt;body>
+&lt;ul class="project-list">
+&lt;li class="project">
+&lt;h3>Insights Into Ransomware&lt;/h3>
+&lt;p>
+Extracted structured information from unstructured text data related to ransomware negotiations
+and 60,000+ internal ransomware group conversations and applied exploratory and natural language processing methods to obtain
+meaningful insights. Analyzed quantitative information on global ransomware attacks across multiple industries and ransomware
+strains.
+&lt;/p>
+&lt;/li>
+&lt;li class="project">
+&lt;h3>Topic Modeling in Customer Feedback: Insights from Comcast Complaints&lt;/h3>
+&lt;p>Examined consumer complaints about Comcast using a data set spanning from 2000-2016&lt;/p>
+&lt;/li>
+&lt;li class="project">
+&lt;h3>Analysis and Classification of Tor Network Traffic&lt;/h3>
+&lt;p>Analyzed data and built a model to classify Tor traffic with using data
+collected by the Canadian Institute for Cybersecurity&lt;/p>
+&lt;/li>
+&lt;li class="project">
+&lt;h3>Humanitarian Aid Worker Security Incidents&lt;/h3>
+&lt;a href="https://public.tableau.com/app/profile/johnny.lowe/viz/HumanitarianAidWorkerSecurityIncidents/HumanitarianAidWorkerSecurityIncidents?publish=yes">View on Tableau Public&lt;/a>
+&lt;p>Built a Tableau dashboard to visualize humanitarian aid worker security incidents,
 with functionality to analyze trends in tactics, total incidents, and the countries where they were affected most
-    <div class='tableauPlaceholder' id='viz1707515706175' style='position: relative'>
-   <noscript><a href='#'><img alt='Humanitarian Aid Worker Security Incidents ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CT&#47;CT9M3CP3R&#47;1_rss.png' style='border: none' /></a></noscript>
-   <object class='tableauViz'  style='display:none;'>
-      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-      <param name='embed_code_version' value='3' />
-      <param name='path' value='shared&#47;CT9M3CP3R' />
-      <param name='toolbar' value='yes' />
-      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CT&#47;CT9M3CP3R&#47;1.png' />
-      <param name='animate_transition' value='yes' />
-      <param name='display_static_image' value='yes' />
-      <param name='display_spinner' value='yes' />
-      <param name='display_overlay' value='yes' />
-      <param name='display_count' value='yes' />
-      <param name='language' value='en-US' />
-      <param name='filter' value='publish=yes' />
-   </object>
-</div>
-<script type='text/javascript'>                    var divElement = document.getElementById('viz1707515706175');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1877px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-</p>
-  </li>
-  <li class="project">
-    <h3>Employee Churn Overview Dashboard</h3>
-    <a href="https://public.tableau.com/app/profile/johnny.lowe/viz/EmployeeAttritionDashboard_17081491530210/AttritionDashboard">View on Tableau Public</a>
-    <p> Developed a dashboard to give an overview of employee churn.
-<div class='tableauPlaceholder' id='viz1708150472309' style='position: relative'><noscript><a href='#'><img alt='Attrition Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Em&#47;EmployeeAttritionDashboard_17081491530210&#47;AttritionDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='EmployeeAttritionDashboard_17081491530210&#47;AttritionDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Em&#47;EmployeeAttritionDashboard_17081491530210&#47;AttritionDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1708150472309');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1077px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-</p>
-  </li>
-  <li class="project">
-    <h3>New York City Real Estate</h3>
-    <a href="https://public.tableau.com/app/profile/johnny.lowe/viz/NewYorkCityRealEstateDashboard/Dashboard">View on Tableau Public</a>
-    <p> Developed a dashboard to analyze new york real estate. 
-    <div class='tableauPlaceholder' id='viz1708356123899' style='position: relative'><noscript><a href='#'><img alt='Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NewYorkCityRealEstateDashboard&#47;Dashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NewYorkCityRealEstateDashboard&#47;Dashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NewYorkCityRealEstateDashboard&#47;Dashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1708356123899');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='2027px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-</p>
-  </li>
-  <li class="project">
-    <h3>Identifying Crime in New York City</h3>
-    <p>The project involved analyzing data sourced from the Office of Management Analysis and Planning, cataloging criminal complaints since 2006. The dataset encompassed various attributes including crime type, location, age, gender, race, and enforcement time, amounting to 7.8 million records. To focus on recent events, we narrowed the timeframe to January 1, 2019, through July 15, 2022, resulting in 256,797 records.</p>
-  </li>
-  <li class="project">
-    <h3>Fit Distributions Web-App</h3>
-    <p>Built a web-app experiment to fit and visualize data to multiple distributions using the fitter library and plotly dash.</p>
-  </li>
-</ul>
-</body>
-</html>
-]]></content:encoded></item><item><title>Datasets</title><link>https://johnnylowejr.com/datasets/</link><pubDate>Fri, 23 Feb 2024 14:55:29 -0500</pubDate><guid>https://johnnylowejr.com/datasets/</guid><description>&lt;!DOCTYPE html> Interesting Datasets Curated Dataset Collection Humanitarian Aid Worker Security Incidents The AWSD (Aid Worker Security Database) is a global compilation of reports detailing major security incidents involving deliberate acts of violence against aid workers. Incident data is collected from public sources through systematic media filtering using a data scraper tool, as well as directly from aid organizations and security entities. Incidents are crosschecked and verified annually, and the database includes parameters such as date, location, number of aid workers affected, institutional affiliation, and outcome of the incident.</description><content:encoded><![CDATA[<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
-    <title>Interesting Datasets</title>
-    <style>
-        .container {
-            font-family:"Varela", sans-serif;
-            font-size:12px;
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #1D1F22;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            height: 400px; /* Set a fixed height for the container */
-            overflow-y: auto; /* Enable vertical scrolling */
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            padding: 10px 0;
-            border-bottom: 1px solid #ccc;
-            display: none; /* Hide list items by default */
-        }
-        li.show {
-            display: block; /* Show list items that match the search */
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        input[type="text"] {
-            font-family:"Varela", sans-serif;
-            width: 100%;
-            padding: 12px;
-            margin-bottom: 15px;
-            box-sizing: border-box;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            outline: none;
-            font-size: 16px;
-            transition: border-color 0.3s ease;
-        }
-        input[type="text"]:focus {
-            border-color: #007bff;
-        }
-    </style>
-</head>
-<body>
-    <h1>Curated Dataset Collection</h1>
-    <input type="text" id="searchInput" placeholder="Start typing to search datasets...">
-    <div class="container">
-        <ul id="datasetList">
-            <li>
-                <a href="https://www.aidworkersecurity.org/incidents/search format=csv">Humanitarian Aid Worker Security Incidents</a>
-                <p>
-                    The AWSD (Aid Worker Security Database) is a global compilation of reports detailing major security incidents involving deliberate acts of violence against aid workers. Incident data is collected from public sources through systematic media filtering using a data scraper tool, as well as directly from aid organizations and security entities. Incidents are crosschecked and verified annually, and the database includes parameters such as date, location, number of aid workers affected, institutional affiliation, and outcome of the incident.
-                </p>
-                <p>Humanitarian Outcomes, Aid Worker Security Database, aidworkersecurity.org</p>
-            </li>
-            <li>
-                <a href="https://www.comparitech.com/blog/information-security/global-ransomware-attacks/">Global Ransomware Attacks</a>
-                <p>The dataset presents information on ransomware attacks worldwide, spanning from 2018 to the present day. It includes details such as attack locations, affected sectors (healthcare, education, government, and business), ransom amounts, payment statuses, targeted entities, industries, and ransomware strains. Researchers compile data from country reports, industry news, and cybersecurity databases to document the latest ransomware incidents impacting businesses, healthcare organizations, educational institutions, and government agencies globally.</p>
-                <p>https://www.comparitech.com/</p>
-            </li>
-            <li>
-                <a href="https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2024/pvqr-7yc4/data_preview">NYC Parking Violations</a>
-                <p>The dataset offers information on Parking Violations Issued from July 1, 2023, to June 30, 2024, aligning with the fiscal year cycle of New York City. It outlines violations issued within this timeframe, capturing their status at the time of issuance without reflecting subsequent updates such as payments, dismissals via hearings, or other status changes. Users seeking current status updates on outstanding parking violations are directed to consult the Open Parking & Camera Violations dataset.</p>
-                <p>NYC OpenData</p>
-            </li>
-            <li>
-                <a href="https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/ShipmentsCancellationsQTR1FY24.xlsx">LESO Shipments & Cancellations</a>
-                <p>
-The update provides the latest quarterly report on accountable property held by participating agencies, categorized into Controlled and Non-controlled. Controlled property remains on the LESO (Law Enforcement Support Office) property book and remains accountable to the Department of Defense (DoD). Conversely, Non-controlled property comprises common items sold to the general public by DLA (Defense Logistics Agency). The data offers a snapshot of Non-controlled property, representing the majority of transfers, and after one year, Non-controlled items become the property of the law enforcement agency and are removed from the LESO database.</p>
-                <p>Defense Logistics Agency</p>
-            </li>
-            <li>
-                <a href="http://205.174.165.80/CICDataset/ISCX-Tor-NonTor-2017/">Tor Network Dataset</a>
-                <p>The "Tor-nonTor dataset (ISCXTor2016)" is a comprehensive collection designed to represent real-world traffic diversity, encompassing various communication channels and browsing activities. It features categorized traffic types, including browsing, email, chat, audio streaming, video streaming, FTP, VoIP, and P2P. Browsing traffic consists of HTTP and HTTPS sessions, while email encompasses Thunderbird client and Gmail accounts using SMTP/S, POP3/SSL, and IMAP/SSL protocols. Chat traffic includes Facebook, Hangouts, Skype, IAM, and ICQ via the Pidgin application. Additionally, audio and video streaming are represented by Spotify, YouTube (HTML5 and flash versions), and Vimeo. FTP sessions involve Skype file transfers, SFTP, and FTPS, while VoIP traffic covers Facebook, Hangouts, and Skype voice calls. P2P traffic represents file-sharing protocols such as BitTorrent, derived from Kali Linux distribution torrents and captured with Vuze application across various upload and download speeds.</p>
-                <p>Canadian Institute for Cybersecurity</p>
-            </li>
-            <!-- Add more datasets as needed -->
-        </ul>
-    </div>
-    <script>
-        document.getElementById('searchInput').addEventListener('input', function() {
-            var searchValue = this.value.toLowerCase();
-            var listItems = document.querySelectorAll('#datasetList li');
-            listItems.forEach(function(item) {
-                var text = item.textContent.toLowerCase();
-                var isVisible = text.includes(searchValue);
-                item.classList.toggle('show', isVisible);
-            });
-        });
-    </script>
-</body>
-</html>
-]]></content:encoded></item><item><title>P Values</title><link>https://johnnylowejr.com/blog/p-values/</link><pubDate>Wed, 14 Feb 2024 16:45:30 -0500</pubDate><guid>https://johnnylowejr.com/blog/p-values/</guid><description>P-values are values between 0 and 1 that tell us the strength of evidence against the null hypothesis. A lower p-value suggests stronger evidence against the null hypothesis, indicating that the observed data is less likely to be due to random chance alone. We establish a significance level, denoted by $\alpha$, as the threshold for rejecting the null hypothesis, typically set at $\alpha$ = 0.05.
-We interpret the p-value by checking whether or not it is less than or equal to or greater than the level of signifiance we selected.</description><content:encoded><![CDATA[<p>P-values are values between 0 and 1 that tell us the strength of evidence against the null hypothesis. A lower p-value suggests stronger evidence against the null hypothesis, indicating that the observed data is less likely to be due to random chance alone. We establish a significance level, denoted by $\alpha$, as the threshold for rejecting the null hypothesis, typically set at $\alpha$ = 0.05.</p>
-<p>We interpret the p-value by checking whether or not it is <strong>less than or equal to</strong>  or <strong>greater than</strong> the level of signifiance we selected. If the p-value $&lt;=$ $\alpha$, then we reject the null hypothesis and determine that the observed data is unlikely to have occured simply by chance; however, if the p-value $&gt; \alpha$, then we fail to reject the null hypothesis and determine the observed data could have occured due to random chance.</p>
-]]></content:encoded></item><item><title>Hypothesis Testing</title><link>https://johnnylowejr.com/blog/hypothesis-testing/</link><pubDate>Fri, 02 Feb 2024 11:01:34 -0500</pubDate><guid>https://johnnylowejr.com/blog/hypothesis-testing/</guid><description>Hypothesis testing is a statistical method used to make inference about a population based on a sample of the population.
-What is Hypothesis Testing? At its core, hypothesis testing is a statistical method used to determine whether there is enough evidence in a sample of data to infer that a particular condition is true for a population. The process involves formulating a hypothesis, collecting and analyzing data, and drawing conclusions based on statistical evidence.</description><content:encoded><![CDATA[<p>Hypothesis testing is a statistical method used to make inference about a population based on a sample of the population.</p>
-<h2 id="what-is-hypothesis-testing">What is Hypothesis Testing?</h2>
-<p>At its core, hypothesis testing is a statistical method used to determine whether there is enough evidence in a sample of data to infer that a particular condition is true for a population. The process involves formulating a hypothesis, collecting and analyzing data, and drawing conclusions based on statistical evidence.</p>
-<h2 id="the-basic-framework-null-and-alternative-hypotheses">The Basic Framework: Null and Alternative Hypotheses</h2>
-<p>In hypothesis testing, we start with two competing hypotheses:</p>
-<ul>
-<li>
-<p><strong>Null Hypothesis (H0):</strong> This is the default assumption that there is no significant difference or effect in the population. It represents the status quo or the absence of an effect.</p>
-</li>
-<li>
-<p><strong>Alternative Hypothesis (H1 or Ha):</strong> This is the hypothesis that contradicts the null hypothesis. It suggests that there is a significant difference or effect in the population.</p>
-</li>
-</ul>
-<h2 id="key-concepts-in-hypothesis-testing">Key Concepts in Hypothesis Testing</h2>
-<ul>
-<li>
-<p><strong>Significance Level (α):</strong> The significance level, denoted by α, represents the probability of rejecting the null hypothesis when it is actually true. Commonly used significance levels include 0.05 and 0.01.</p>
-</li>
-<li>
-<p><strong>P-value:</strong> The p-value is the probability of observing the test statistic or a more extreme value under the null hypothesis. A low p-value indicates strong evidence against the null hypothesis, leading to its rejection.</p>
-</li>
-<li>
-<p><strong>Test Statistic:</strong> The test statistic is a numerical summary of the sample data used to assess the strength of evidence against the null hypothesis.</p>
-</li>
-</ul>
-<h2 id="common-types-of-hypothesis-tests">Common Types of Hypothesis Tests</h2>
-<ul>
-<li>
-<p><strong>Z-test and T-test:</strong> Used to compare means between two groups or to test hypotheses about population means.</p>
-</li>
-<li>
-<p><strong>Chi-Square Test:</strong> Used to test hypotheses about the association between categorical variables.</p>
-</li>
-<li>
-<p><strong>ANOVA (Analysis of Variance):</strong> Used to compare means across multiple groups.</p>
-</li>
-</ul>
-<h2 id="steps-in-hypothesis-testing">Steps in Hypothesis Testing</h2>
-<ol>
-<li>
-<p><strong>Formulate Hypotheses:</strong> Clearly state the null and alternative hypotheses based on the research question.</p>
-</li>
-<li>
-<p><strong>Choose a Significance Level:</strong> Determine the desired level of confidence for the test.</p>
-</li>
-<li>
-<p><strong>Select the Appropriate Test:</strong> Choose the appropriate hypothesis test based on the type of data and research question.</p>
-</li>
-<li>
-<p><strong>Collect Data:</strong> Collect and organize the relevant data for analysis.</p>
-</li>
-<li>
-<p><strong>Calculate the Test Statistic:</strong> Compute the test statistic using the sample data and the chosen hypothesis test.</p>
-</li>
-<li>
-<p><strong>Determine the P-value:</strong> Calculate the p-value associated with the test statistic.</p>
-</li>
-<li>
-<p><strong>Make a Decision:</strong> Compare the p-value to the significance level. If the p-value is less than α, reject the null hypothesis; otherwise, fail to reject the null hypothesis.</p>
-</li>
-</ol>
-<p>Hypothesis testing is a powerful tool for making data-driven decisions and drawing meaningful conclusions from research findings. By understanding the basic principles and techniques of hypothesis testing, researchers and analysts can confidently analyze data, identify patterns, and contribute valuable insights to their respective fields. As we continue to explore the intricacies of hypothesis testing, we unlock new possibilities for discovery and innovation in the dynamic world of statistics and data science.</p>
-<h3 id="hypothesis-testing-in-practice">Hypothesis Testing In Practice</h3>
-<p>Example of hypothesis testing in Python using the two-sample t-test to compare the average exam scores between two groups of students: Group A and Group B.</p>
-
-
-
-
-
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kn">from</span> <span class="nn">scipy</span> <span class="kn">import</span> <span class="n">stats</span>
-</span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-</span></span><span class="line"><span class="ln"> 3</span><span class="cl">
-</span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="c1"># Sample data for exam scores</span>
-</span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="n">group_a_scores</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">85</span><span class="p">,</span> <span class="mi">78</span><span class="p">,</span> <span class="mi">92</span><span class="p">,</span> <span class="mi">88</span><span class="p">,</span> <span class="mi">95</span><span class="p">,</span> <span class="mi">84</span><span class="p">,</span> <span class="mi">91</span><span class="p">,</span> <span class="mi">79</span><span class="p">,</span> <span class="mi">87</span><span class="p">,</span> <span class="mi">90</span><span class="p">])</span>
-</span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="n">group_b_scores</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">72</span><span class="p">,</span> <span class="mi">68</span><span class="p">,</span> <span class="mi">74</span><span class="p">,</span> <span class="mi">70</span><span class="p">,</span> <span class="mi">65</span><span class="p">,</span> <span class="mi">71</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">69</span><span class="p">,</span> <span class="mi">73</span><span class="p">,</span> <span class="mi">67</span><span class="p">])</span>
-</span></span><span class="line"><span class="ln"> 7</span><span class="cl">
-</span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="c1"># Perform two-sample t-test</span>
-</span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="n">t_statistic</span><span class="p">,</span> <span class="n">p_value</span> <span class="o">=</span> <span class="n">stats</span><span class="o">.</span><span class="n">ttest_ind</span><span class="p">(</span><span class="n">group_a_scores</span><span class="p">,</span> <span class="n">group_b_scores</span><span class="p">)</span>
-</span></span><span class="line"><span class="ln">10</span><span class="cl">
-</span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="c1"># Define significance level</span>
-</span></span><span class="line"><span class="ln">12</span><span class="cl"><span class="n">alpha</span> <span class="o">=</span> <span class="mf">0.05</span>
-</span></span><span class="line"><span class="ln">13</span><span class="cl">
-</span></span><span class="line"><span class="ln">14</span><span class="cl"><span class="c1"># Print results</span>
-</span></span><span class="line"><span class="ln">15</span><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;T-statistic:&#34;</span><span class="p">,</span> <span class="n">t_statistic</span><span class="p">)</span>
-</span></span><span class="line"><span class="ln">16</span><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;P-value:&#34;</span><span class="p">,</span> <span class="n">p_value</span><span class="p">)</span>
-</span></span><span class="line"><span class="ln">17</span><span class="cl">
-</span></span><span class="line"><span class="ln">18</span><span class="cl"><span class="k">if</span> <span class="n">p_value</span> <span class="o">&lt;</span> <span class="n">alpha</span><span class="p">:</span>
-</span></span><span class="line"><span class="ln">19</span><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Reject null hypothesis: There is a significant difference in exam scores between the two groups.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="ln">20</span><span class="cl"><span class="k">else</span><span class="p">:</span>
-</span></span><span class="line"><span class="ln">21</span><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Fail to reject null hypothesis: There is no significant difference in exam scores between the two groups.&#34;</span><span class="p">)</span></span></span></code></pre></div>]]></content:encoded></item></channel></rss>
+&lt;div class='tableauPlaceholder' id='viz1707515706175' style='position: relative'>
+&lt;noscript>&lt;a href='#'>&lt;img alt='Humanitarian Aid Worker Security Incidents ' src='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;CT&amp;#47;CT9M3CP3R&amp;#47;1_rss.png' style='border: none' />&lt;/a>&lt;/noscript>
+&lt;object class='tableauViz' style='display:none;'>
+&lt;param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+&lt;param name='embed_code_version' value='3' />
+&lt;param name='path' value='shared&amp;#47;CT9M3CP3R' />
+&lt;param name='toolbar' value='yes' />
+&lt;param name='static_image' value='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;CT&amp;#47;CT9M3CP3R&amp;#47;1.png' />
+&lt;param name='animate_transition' value='yes' />
+&lt;param name='display_static_image' value='yes' />
+&lt;param name='display_spinner' value='yes' />
+&lt;param name='display_overlay' value='yes' />
+&lt;param name='display_count' value='yes' />
+&lt;param name='language' value='en-US' />
+&lt;param name='filter' value='publish=yes' />
+&lt;/object>
+&lt;/div>
+&lt;script type='text/javascript'> var divElement = document.getElementById('viz1707515706175'); var vizElement = divElement.getElementsByTagName('object')[0]; if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1877px';} var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); &lt;/script>
+&lt;/p>
+&lt;/li>
+&lt;li class="project">
+&lt;h3>Employee Churn Overview Dashboard&lt;/h3>
+&lt;a href="https://public.tableau.com/app/profile/johnny.lowe/viz/EmployeeAttritionDashboard_17081491530210/AttritionDashboard">View on Tableau Public&lt;/a>
+&lt;p> Developed a dashboard to give an overview of employee churn.
+&lt;div class='tableauPlaceholder' id='viz1708150472309' style='position: relative'>&lt;noscript>&lt;a href='#'>&lt;img alt='Attrition Dashboard ' src='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Em&amp;#47;EmployeeAttritionDashboard_17081491530210&amp;#47;AttritionDashboard&amp;#47;1_rss.png' style='border: none' />&lt;/a>&lt;/noscript>&lt;object class='tableauViz' style='display:none;'>&lt;param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> &lt;param name='embed_code_version' value='3' /> &lt;param name='site_root' value='' />&lt;param name='name' value='EmployeeAttritionDashboard_17081491530210&amp;#47;AttritionDashboard' />&lt;param name='tabs' value='no' />&lt;param name='toolbar' value='yes' />&lt;param name='static_image' value='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Em&amp;#47;EmployeeAttritionDashboard_17081491530210&amp;#47;AttritionDashboard&amp;#47;1.png' /> &lt;param name='animate_transition' value='yes' />&lt;param name='display_static_image' value='yes' />&lt;param name='display_spinner' value='yes' />&lt;param name='display_overlay' value='yes' />&lt;param name='display_count' value='yes' />&lt;param name='language' value='en-US' />&lt;/object>&lt;/div> &lt;script type='text/javascript'> var divElement = document.getElementById('viz1708150472309'); var vizElement = divElement.getElementsByTagName('object')[0]; if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1077px';} var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); &lt;/script>
+&lt;/p>
+&lt;/li>
+&lt;li class="project">
+&lt;h3>New York City Real Estate&lt;/h3>
+&lt;a href="https://public.tableau.com/app/profile/johnny.lowe/viz/NewYorkCityRealEstateDashboard/Dashboard">View on Tableau Public&lt;/a>
+&lt;p> Developed a dashboard to analyze new york real estate.
+&lt;div class='tableauPlaceholder' id='viz1708356123899' style='position: relative'>&lt;noscript>&lt;a href='#'>&lt;img alt='Dashboard ' src='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Ne&amp;#47;NewYorkCityRealEstateDashboard&amp;#47;Dashboard&amp;#47;1_rss.png' style='border: none' />&lt;/a>&lt;/noscript>&lt;object class='tableauViz' style='display:none;'>&lt;param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> &lt;param name='embed_code_version' value='3' /> &lt;param name='site_root' value='' />&lt;param name='name' value='NewYorkCityRealEstateDashboard&amp;#47;Dashboard' />&lt;param name='tabs' value='no' />&lt;param name='toolbar' value='yes' />&lt;param name='static_image' value='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Ne&amp;#47;NewYorkCityRealEstateDashboard&amp;#47;Dashboard&amp;#47;1.png' /> &lt;param name='animate_transition' value='yes' />&lt;param name='display_static_image' value='yes' />&lt;param name='display_spinner' value='yes' />&lt;param name='display_overlay' value='yes' />&lt;param name='display_count' value='yes' />&lt;param name='language' value='en-US' />&lt;/object>&lt;/div> &lt;script type='text/javascript'> var divElement = document.getElementById('viz1708356123899'); var vizElement = divElement.getElementsByTagName('object')[0]; if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='2027px';} var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); &lt;/script>
+&lt;/p>
+&lt;/li>
+&lt;li class="project">
+&lt;h3>Identifying Crime in New York City&lt;/h3>
+&lt;p>The project involved analyzing data sourced from the Office of Management Analysis and Planning, cataloging criminal complaints since 2006. The dataset encompassed various attributes including crime type, location, age, gender, race, and enforcement time, amounting to 7.8 million records. To focus on recent events, we narrowed the timeframe to January 1, 2019, through July 15, 2022, resulting in 256,797 records.&lt;/p>
+&lt;/li>
+&lt;li class="project">
+&lt;h3>Fit Distributions Web-App&lt;/h3>
+&lt;p>Built a web-app experiment to fit and visualize data to multiple distributions using the fitter library and plotly dash.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/body>
+&lt;/html></description></item><item><title>Search</title><link>https://johnnylowejr.com/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://johnnylowejr.com/search/</guid><description/></item></channel></rss>

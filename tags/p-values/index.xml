@@ -1,4 +1,114 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>P-Values on Johnny Lowe</title><link>https://johnnylowejr.com/tags/p-values/</link><description>Recent content in P-Values on Johnny Lowe</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>Johnny Lowe (CC BY 4.0)</copyright><lastBuildDate>Wed, 14 Feb 2024 16:45:30 -0500</lastBuildDate><atom:link href="https://johnnylowejr.com/tags/p-values/index.xml" rel="self" type="application/rss+xml"/><item><title>P Values</title><link>https://johnnylowejr.com/blog/p-values/</link><pubDate>Wed, 14 Feb 2024 16:45:30 -0500</pubDate><guid>https://johnnylowejr.com/blog/p-values/</guid><description>P-values are values between 0 and 1 that tell us the strength of evidence against the null hypothesis. A lower p-value suggests stronger evidence against the null hypothesis, indicating that the observed data is less likely to be due to random chance alone. We establish a significance level, denoted by $\alpha$, as the threshold for rejecting the null hypothesis, typically set at $\alpha$ = 0.05.
-We interpret the p-value by checking whether or not it is less than or equal to or greater than the level of signifiance we selected.</description><content:encoded><![CDATA[<p>P-values are values between 0 and 1 that tell us the strength of evidence against the null hypothesis. A lower p-value suggests stronger evidence against the null hypothesis, indicating that the observed data is less likely to be due to random chance alone. We establish a significance level, denoted by $\alpha$, as the threshold for rejecting the null hypothesis, typically set at $\alpha$ = 0.05.</p>
-<p>We interpret the p-value by checking whether or not it is <strong>less than or equal to</strong>  or <strong>greater than</strong> the level of signifiance we selected. If the p-value $&lt;=$ $\alpha$, then we reject the null hypothesis and determine that the observed data is unlikely to have occured simply by chance; however, if the p-value $&gt; \alpha$, then we fail to reject the null hypothesis and determine the observed data could have occured due to random chance.</p>
-]]></content:encoded></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>P-Values on Johnny Lowe</title><link>https://johnnylowejr.com/tags/p-values/</link><description>Recent content in P-Values on Johnny Lowe</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Johnny Lowe</copyright><lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://johnnylowejr.com/tags/p-values/index.xml" rel="self" type="application/rss+xml"/><item><title>Hypothesis Testing</title><link>https://johnnylowejr.com/p/hypothesis-testing/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><guid>https://johnnylowejr.com/p/hypothesis-testing/</guid><description>&lt;p>Hypothesis testing is a statistical method used to make inference about a population based on a sample of the population.&lt;/p>
+&lt;h2 id="what-is-hypothesis-testing">What is Hypothesis Testing?&lt;/h2>
+&lt;p>At its core, hypothesis testing is a statistical method used to determine whether there is enough evidence in a sample of data to infer that a particular condition is true for a population. The process involves formulating a hypothesis, collecting and analyzing data, and drawing conclusions based on statistical evidence.&lt;/p>
+&lt;h2 id="the-basic-framework-null-and-alternative-hypotheses">The Basic Framework: Null and Alternative Hypotheses&lt;/h2>
+&lt;p>In hypothesis testing, we start with two competing hypotheses:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Null Hypothesis (H0):&lt;/strong> This is the default assumption that there is no significant difference or effect in the population. It represents the status quo or the absence of an effect.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Alternative Hypothesis (H1 or Ha):&lt;/strong> This is the hypothesis that contradicts the null hypothesis. It suggests that there is a significant difference or effect in the population.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="key-concepts-in-hypothesis-testing">Key Concepts in Hypothesis Testing&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Significance Level (α):&lt;/strong> The significance level, denoted by α, represents the probability of rejecting the null hypothesis when it is actually true. Commonly used significance levels include 0.05 and 0.01.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>P-value:&lt;/strong> The p-value is the probability of observing the test statistic or a more extreme value under the null hypothesis. A low p-value indicates strong evidence against the null hypothesis, leading to its rejection.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Test Statistic:&lt;/strong> The test statistic is a numerical summary of the sample data used to assess the strength of evidence against the null hypothesis.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="common-types-of-hypothesis-tests">Common Types of Hypothesis Tests&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Z-test and T-test:&lt;/strong> Used to compare means between two groups or to test hypotheses about population means.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Chi-Square Test:&lt;/strong> Used to test hypotheses about the association between categorical variables.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>ANOVA (Analysis of Variance):&lt;/strong> Used to compare means across multiple groups.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="steps-in-hypothesis-testing">Steps in Hypothesis Testing&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Formulate Hypotheses:&lt;/strong> Clearly state the null and alternative hypotheses based on the research question.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Choose a Significance Level:&lt;/strong> Determine the desired level of confidence for the test.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Select the Appropriate Test:&lt;/strong> Choose the appropriate hypothesis test based on the type of data and research question.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Collect Data:&lt;/strong> Collect and organize the relevant data for analysis.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Calculate the Test Statistic:&lt;/strong> Compute the test statistic using the sample data and the chosen hypothesis test.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Determine the P-value:&lt;/strong> Calculate the p-value associated with the test statistic.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Make a Decision:&lt;/strong> Compare the p-value to the significance level. If the p-value is less than α, reject the null hypothesis; otherwise, fail to reject the null hypothesis.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Hypothesis testing is a powerful tool for making data-driven decisions and drawing meaningful conclusions from research findings. By understanding the basic principles and techniques of hypothesis testing, researchers and analysts can confidently analyze data, identify patterns, and contribute valuable insights to their respective fields. As we continue to explore the intricacies of hypothesis testing, we unlock new possibilities for discovery and innovation in the dynamic world of statistics and data science.&lt;/p>
+&lt;h3 id="hypothesis-testing-in-practice">Hypothesis Testing In Practice&lt;/h3>
+&lt;p>Example of hypothesis testing in Python using the two-sample t-test to compare the average exam scores between two groups of students: Group A and Group B.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">scipy&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">stats&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">numpy&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">np&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Sample data for exam scores&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">group_a_scores&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">np&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">array&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="mi">85&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">78&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">92&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">88&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">95&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">84&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">91&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">79&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">87&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">90&lt;/span>&lt;span class="p">])&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">group_b_scores&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">np&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">array&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="mi">72&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">68&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">74&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">70&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">65&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">71&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">75&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">69&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">73&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">67&lt;/span>&lt;span class="p">])&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Perform two-sample t-test&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">t_statistic&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">p_value&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">stats&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">ttest_ind&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">group_a_scores&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">group_b_scores&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Define significance level&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">alpha&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mf">0.05&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Print results&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;T-statistic:&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">t_statistic&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;P-value:&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">p_value&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="n">p_value&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">alpha&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Reject null hypothesis: There is a significant difference in exam scores between the two groups.&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">else&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Fail to reject null hypothesis: There is no significant difference in exam scores between the two groups.&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>P-Values</title><link>https://johnnylowejr.com/p/p-values/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><guid>https://johnnylowejr.com/p/p-values/</guid><description>&lt;p>P-values are values between 0 and 1 that tell us the strength of evidence against the null hypothesis. A lower p-value suggests stronger evidence against the null hypothesis, indicating that the observed data is less likely to be due to random chance alone. We establish a significance level, denoted by $\alpha$, as the threshold for rejecting the null hypothesis, typically set at $\alpha$ = 0.05.&lt;/p>
+&lt;p>We interpret the p-value by checking whether or not it is &lt;strong>less than or equal to&lt;/strong> or &lt;strong>greater than&lt;/strong> the level of signifiance we selected. If the p-value $&amp;lt;=$ $\alpha$, then we reject the null hypothesis and determine that the observed data is unlikely to have occured simply by chance; however, if the p-value $&amp;gt; \alpha$, then we fail to reject the null hypothesis and determine the observed data could have occured due to random chance.&lt;/p></description></item></channel></rss>

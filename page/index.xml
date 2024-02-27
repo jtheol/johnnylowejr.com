@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Johnny Lowe</title><link>https://johnnylowejr.com/page/</link><description>Recent content in Pages on Johnny Lowe</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Johnny Lowe</copyright><lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://johnnylowejr.com/page/index.xml" rel="self" type="application/rss+xml"/><item><title>Datasets</title><link>https://johnnylowejr.com/datasets/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><guid>https://johnnylowejr.com/datasets/</guid><description>&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+&lt;meta charset="UTF-8">
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+&lt;link rel="preconnect" href="https://fonts.googleapis.com">
+&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+&lt;link href="https://fonts.googleapis.com/css2?family=Varela&amp;display=swap" rel="stylesheet">
+&lt;title>Interesting Datasets&lt;/title>
+&lt;style>
+.container {
+font-family:"Varela", sans-serif;
+font-size:12px;
+max-width: 800px;
+margin: 20px auto;
+padding: 20px;
+background-color: #1D1F22;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+height: 400px; /* Set a fixed height for the container */
+overflow-y: auto; /* Enable vertical scrolling */
+}
+ul {
+list-style: none;
+padding: 0;
+}
+li {
+padding: 10px 0;
+border-bottom: 1px solid #ccc;
+display: none; /* Hide list items by default */
+}
+li.show {
+display: block; /* Show list items that match the search */
+}
+a:hover {
+text-decoration: underline;
+}
+input[type="text"] {
+font-family:"Varela", sans-serif;
+width: 100%;
+padding: 12px;
+margin-bottom: 15px;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 4px;
+outline: none;
+font-size: 16px;
+transition: border-color 0.3s ease;
+}
+input[type="text"]:focus {
+border-color: #007bff;
+}
+&lt;/style>
+&lt;/head>
+&lt;body>
+&lt;h1>Curated Dataset Collection&lt;/h1>
+&lt;input type="text" id="searchInput" placeholder="Start typing to search datasets...">
+&lt;div class="container">
+&lt;ul id="datasetList">
+&lt;li>
+&lt;a href="https://www.aidworkersecurity.org/incidents/search format=csv">Humanitarian Aid Worker Security Incidents&lt;/a>
+&lt;p>
+The AWSD (Aid Worker Security Database) is a global compilation of reports detailing major security incidents involving deliberate acts of violence against aid workers. Incident data is collected from public sources through systematic media filtering using a data scraper tool, as well as directly from aid organizations and security entities. Incidents are crosschecked and verified annually, and the database includes parameters such as date, location, number of aid workers affected, institutional affiliation, and outcome of the incident.
+&lt;/p>
+&lt;p>Humanitarian Outcomes, Aid Worker Security Database, aidworkersecurity.org&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;a href="https://www.comparitech.com/blog/information-security/global-ransomware-attacks/">Global Ransomware Attacks&lt;/a>
+&lt;p>The dataset presents information on ransomware attacks worldwide, spanning from 2018 to the present day. It includes details such as attack locations, affected sectors (healthcare, education, government, and business), ransom amounts, payment statuses, targeted entities, industries, and ransomware strains. Researchers compile data from country reports, industry news, and cybersecurity databases to document the latest ransomware incidents impacting businesses, healthcare organizations, educational institutions, and government agencies globally.&lt;/p>
+&lt;p>https://www.comparitech.com/&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;a href="https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2024/pvqr-7yc4/data_preview">NYC Parking Violations&lt;/a>
+&lt;p>The dataset offers information on Parking Violations Issued from July 1, 2023, to June 30, 2024, aligning with the fiscal year cycle of New York City. It outlines violations issued within this timeframe, capturing their status at the time of issuance without reflecting subsequent updates such as payments, dismissals via hearings, or other status changes. Users seeking current status updates on outstanding parking violations are directed to consult the Open Parking &amp; Camera Violations dataset.&lt;/p>
+&lt;p>NYC OpenData&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;a href="https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/ShipmentsCancellationsQTR1FY24.xlsx">LESO Shipments &amp; Cancellations&lt;/a>
+&lt;p>
+The update provides the latest quarterly report on accountable property held by participating agencies, categorized into Controlled and Non-controlled. Controlled property remains on the LESO (Law Enforcement Support Office) property book and remains accountable to the Department of Defense (DoD). Conversely, Non-controlled property comprises common items sold to the general public by DLA (Defense Logistics Agency). The data offers a snapshot of Non-controlled property, representing the majority of transfers, and after one year, Non-controlled items become the property of the law enforcement agency and are removed from the LESO database.&lt;/p>
+&lt;p>Defense Logistics Agency&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;a href="http://205.174.165.80/CICDataset/ISCX-Tor-NonTor-2017/">Tor Network Dataset&lt;/a>
+&lt;p>The "Tor-nonTor dataset (ISCXTor2016)" is a comprehensive collection designed to represent real-world traffic diversity, encompassing various communication channels and browsing activities. It features categorized traffic types, including browsing, email, chat, audio streaming, video streaming, FTP, VoIP, and P2P. Browsing traffic consists of HTTP and HTTPS sessions, while email encompasses Thunderbird client and Gmail accounts using SMTP/S, POP3/SSL, and IMAP/SSL protocols. Chat traffic includes Facebook, Hangouts, Skype, IAM, and ICQ via the Pidgin application. Additionally, audio and video streaming are represented by Spotify, YouTube (HTML5 and flash versions), and Vimeo. FTP sessions involve Skype file transfers, SFTP, and FTPS, while VoIP traffic covers Facebook, Hangouts, and Skype voice calls. P2P traffic represents file-sharing protocols such as BitTorrent, derived from Kali Linux distribution torrents and captured with Vuze application across various upload and download speeds.&lt;/p>
+&lt;p>Canadian Institute for Cybersecurity&lt;/p>
+&lt;/li>
+&lt;!-- Add more datasets as needed -->
+&lt;/ul>
+&lt;/div>
+&lt;script>
+document.getElementById('searchInput').addEventListener('input', function() {
+var searchValue = this.value.toLowerCase();
+var listItems = document.querySelectorAll('#datasetList li');
+listItems.forEach(function(item) {
+var text = item.textContent.toLowerCase();
+var isVisible = text.includes(searchValue);
+item.classList.toggle('show', isVisible);
+});
+});
+&lt;/script>
+&lt;/body>
+&lt;/html></description></item><item><title>Projects</title><link>https://johnnylowejr.com/projects/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><guid>https://johnnylowejr.com/projects/</guid><description>&lt;style>
+.project-list {
+list-style-type: none;
+padding: 0;
+}
+.project {
+border: 1px solid #ccc;
+padding: 20px;
+margin-bottom: 20px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project:hover {
+transform: translateY(-5px);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+&lt;/style>
+&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+&lt;meta charset="UTF-8">
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+&lt;title>Project Showcase&lt;/title>
+&lt;link rel="stylesheet" href="styles.css">
+&lt;/head>
+&lt;body>
+&lt;ul class="project-list">
+&lt;li class="project">
+&lt;h3>Insights Into Ransomware&lt;/h3>
+&lt;p>
+Extracted structured information from unstructured text data related to ransomware negotiations
+and 60,000+ internal ransomware group conversations and applied exploratory and natural language processing methods to obtain
+meaningful insights. Analyzed quantitative information on global ransomware attacks across multiple industries and ransomware
+strains.
+&lt;/p>
+&lt;/li>
+&lt;li class="project">
+&lt;h3>Topic Modeling in Customer Feedback: Insights from Comcast Complaints&lt;/h3>
+&lt;p>Examined consumer complaints about Comcast using a data set spanning from 2000-2016&lt;/p>
+&lt;/li>
+&lt;li class="project">
+&lt;h3>Analysis and Classification of Tor Network Traffic&lt;/h3>
+&lt;p>Analyzed data and built a model to classify Tor traffic with using data
+collected by the Canadian Institute for Cybersecurity&lt;/p>
+&lt;/li>
+&lt;li class="project">
+&lt;h3>Humanitarian Aid Worker Security Incidents&lt;/h3>
+&lt;a href="https://public.tableau.com/app/profile/johnny.lowe/viz/HumanitarianAidWorkerSecurityIncidents/HumanitarianAidWorkerSecurityIncidents?publish=yes">View on Tableau Public&lt;/a>
+&lt;p>Built a Tableau dashboard to visualize humanitarian aid worker security incidents,
+with functionality to analyze trends in tactics, total incidents, and the countries where they were affected most
+&lt;div class='tableauPlaceholder' id='viz1707515706175' style='position: relative'>
+&lt;noscript>&lt;a href='#'>&lt;img alt='Humanitarian Aid Worker Security Incidents ' src='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;CT&amp;#47;CT9M3CP3R&amp;#47;1_rss.png' style='border: none' />&lt;/a>&lt;/noscript>
+&lt;object class='tableauViz' style='display:none;'>
+&lt;param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+&lt;param name='embed_code_version' value='3' />
+&lt;param name='path' value='shared&amp;#47;CT9M3CP3R' />
+&lt;param name='toolbar' value='yes' />
+&lt;param name='static_image' value='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;CT&amp;#47;CT9M3CP3R&amp;#47;1.png' />
+&lt;param name='animate_transition' value='yes' />
+&lt;param name='display_static_image' value='yes' />
+&lt;param name='display_spinner' value='yes' />
+&lt;param name='display_overlay' value='yes' />
+&lt;param name='display_count' value='yes' />
+&lt;param name='language' value='en-US' />
+&lt;param name='filter' value='publish=yes' />
+&lt;/object>
+&lt;/div>
+&lt;script type='text/javascript'> var divElement = document.getElementById('viz1707515706175'); var vizElement = divElement.getElementsByTagName('object')[0]; if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1877px';} var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); &lt;/script>
+&lt;/p>
+&lt;/li>
+&lt;li class="project">
+&lt;h3>Employee Churn Overview Dashboard&lt;/h3>
+&lt;a href="https://public.tableau.com/app/profile/johnny.lowe/viz/EmployeeAttritionDashboard_17081491530210/AttritionDashboard">View on Tableau Public&lt;/a>
+&lt;p> Developed a dashboard to give an overview of employee churn.
+&lt;div class='tableauPlaceholder' id='viz1708150472309' style='position: relative'>&lt;noscript>&lt;a href='#'>&lt;img alt='Attrition Dashboard ' src='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Em&amp;#47;EmployeeAttritionDashboard_17081491530210&amp;#47;AttritionDashboard&amp;#47;1_rss.png' style='border: none' />&lt;/a>&lt;/noscript>&lt;object class='tableauViz' style='display:none;'>&lt;param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> &lt;param name='embed_code_version' value='3' /> &lt;param name='site_root' value='' />&lt;param name='name' value='EmployeeAttritionDashboard_17081491530210&amp;#47;AttritionDashboard' />&lt;param name='tabs' value='no' />&lt;param name='toolbar' value='yes' />&lt;param name='static_image' value='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Em&amp;#47;EmployeeAttritionDashboard_17081491530210&amp;#47;AttritionDashboard&amp;#47;1.png' /> &lt;param name='animate_transition' value='yes' />&lt;param name='display_static_image' value='yes' />&lt;param name='display_spinner' value='yes' />&lt;param name='display_overlay' value='yes' />&lt;param name='display_count' value='yes' />&lt;param name='language' value='en-US' />&lt;/object>&lt;/div> &lt;script type='text/javascript'> var divElement = document.getElementById('viz1708150472309'); var vizElement = divElement.getElementsByTagName('object')[0]; if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1077px';} var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); &lt;/script>
+&lt;/p>
+&lt;/li>
+&lt;li class="project">
+&lt;h3>New York City Real Estate&lt;/h3>
+&lt;a href="https://public.tableau.com/app/profile/johnny.lowe/viz/NewYorkCityRealEstateDashboard/Dashboard">View on Tableau Public&lt;/a>
+&lt;p> Developed a dashboard to analyze new york real estate.
+&lt;div class='tableauPlaceholder' id='viz1708356123899' style='position: relative'>&lt;noscript>&lt;a href='#'>&lt;img alt='Dashboard ' src='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Ne&amp;#47;NewYorkCityRealEstateDashboard&amp;#47;Dashboard&amp;#47;1_rss.png' style='border: none' />&lt;/a>&lt;/noscript>&lt;object class='tableauViz' style='display:none;'>&lt;param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> &lt;param name='embed_code_version' value='3' /> &lt;param name='site_root' value='' />&lt;param name='name' value='NewYorkCityRealEstateDashboard&amp;#47;Dashboard' />&lt;param name='tabs' value='no' />&lt;param name='toolbar' value='yes' />&lt;param name='static_image' value='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Ne&amp;#47;NewYorkCityRealEstateDashboard&amp;#47;Dashboard&amp;#47;1.png' /> &lt;param name='animate_transition' value='yes' />&lt;param name='display_static_image' value='yes' />&lt;param name='display_spinner' value='yes' />&lt;param name='display_overlay' value='yes' />&lt;param name='display_count' value='yes' />&lt;param name='language' value='en-US' />&lt;/object>&lt;/div> &lt;script type='text/javascript'> var divElement = document.getElementById('viz1708356123899'); var vizElement = divElement.getElementsByTagName('object')[0]; if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='2027px';} var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); &lt;/script>
+&lt;/p>
+&lt;/li>
+&lt;li class="project">
+&lt;h3>Identifying Crime in New York City&lt;/h3>
+&lt;p>The project involved analyzing data sourced from the Office of Management Analysis and Planning, cataloging criminal complaints since 2006. The dataset encompassed various attributes including crime type, location, age, gender, race, and enforcement time, amounting to 7.8 million records. To focus on recent events, we narrowed the timeframe to January 1, 2019, through July 15, 2022, resulting in 256,797 records.&lt;/p>
+&lt;/li>
+&lt;li class="project">
+&lt;h3>Fit Distributions Web-App&lt;/h3>
+&lt;p>Built a web-app experiment to fit and visualize data to multiple distributions using the fitter library and plotly dash.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/body>
+&lt;/html></description></item><item><title>Search</title><link>https://johnnylowejr.com/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://johnnylowejr.com/search/</guid><description/></item></channel></rss>
