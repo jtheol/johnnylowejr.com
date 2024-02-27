@@ -1,9 +1,13 @@
 +++
-title = 'Hypothesis Testing'
-date = 2024-02-02T11:01:34-05:00
-draft = false
+author = "Johnny Lowe"
+title = "Hypothesis Testing"
+date = "2024-02-26"
+description = "The basics of hypothesis testing: understanding null and alternative hypotheses, significance levels, and key statistical tests like Z-test, T-test, and ANOVA."
 tags = [
+    "statistics",
     "hypothesis-testing",
+    "p-values",
+    "python"
 ]
 +++
 

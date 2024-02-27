@@ -1,7 +1,16 @@
 ---
-title: Projects 
-menu: "main"
-weight: 2
+title: Projects
+# description: About Me
+date: '2024-02-26'
+aliases:
+  - projects
+license: CC BY-NC-ND
+lastmod: '2024-02-26'
+menu:
+    main: 
+        weight: -90
+        params:
+            icon: archives
 ---
 
 <style>

@@ -1,10 +1,17 @@
-+++
-title = 'Datasets'
-date = 2024-02-23T14:55:29-05:00
-menu = "main"
-draft = false
-+++
-
+---
+title: Datasets
+# description: About Me
+date: '2024-02-26'
+aliases:
+  - datasets
+license: CC BY-NC-ND
+lastmod: '2024-02-26'
+menu:
+    main: 
+        weight: -70
+        params:
+            icon: categories
+---
 
 <!DOCTYPE html>
 <html lang="en">
