@@ -58,13 +58,13 @@ menu:
     <h3>Topic Modeling in Customer Feedback: Insights from Comcast Complaints</h3>
     <p>Examined consumer complaints about Comcast using a data set spanning from 2000-2016.
 
-    Firstly, we preprocess the data and divides complaints based on their ratings. Then, we employ TF-IDF vectorization to identify the most common words in negative comments, focusing on topics like Comcast packages and customer support wait times.
+Firstly, we preprocess the data and divides complaints based on their ratings. Then, we employ TF-IDF vectorization to identify the most common words in negative comments, focusing on topics like Comcast packages and customer support wait times.
 
-    Utilizing Latent Dirichlet Allocation (LDA), identify topics within the negative complaints and prints key terms per topic, and further examine complaints related to customer service.
+Utilizing Latent Dirichlet Allocation (LDA), identify topics within the negative complaints and prints key terms per topic, and further examine complaints related to customer service.
 
-    Lastly, utilize BERTopic, a state-of-the-art topic modeling technique, to identify and visualize topics within negative complaints, notably highlighting issues similar to customer service complaints.
+Lastly, utilize BERTopic, a state-of-the-art topic modeling technique, to identify and visualize topics within negative complaints, notably highlighting issues similar to customer service complaints.
 
-    The process provides an insightful exploration of consumer sentiments, shedding light on prevalent issues and sentiments within Comcast consumer complaints.
+The process provides an insightful exploration of consumer sentiments, shedding light on prevalent issues and sentiments within Comcast consumer complaints.
 </p>
   </li>
 
@@ -134,11 +134,9 @@ with functionality to analyze trends in tactics, total incidents, and the countr
   </li>
   <li class="project">
     <h3>Fit Distributions Web-App</h3>
-    <p>
+    <p>The tool empowers data scientists to explore and analyze the probability distributions of their numerical data, aiding in the selection of appropriate distribution models for their datasets.
 
-    The tool empowers data scientists to explore and analyze the probability distributions of their numerical data, aiding in the selection of appropriate distribution models for their datasets.
-
-    Data Upload: Users can upload CSV or Excel files containing numerical data. The tool parses the data and provides insights such as the number of numeric features and the total number of distributions available for fitting.
+Data Upload: Users can upload CSV or Excel files containing numerical data. The tool parses the data and provides insights such as the number of numeric features and the total number of distributions available for fitting.
 
 Distribution Fitting: Users can select specific distributions to fit to their data from a dropdown menu. They can also choose criteria for selecting the best distribution, such as sumsquare error, AIC, or BIC.
 
