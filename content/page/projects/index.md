@@ -56,7 +56,16 @@ menu:
 
   <li class="project">
     <h3>Topic Modeling in Customer Feedback: Insights from Comcast Complaints</h3>
-    <p>Examined consumer complaints about Comcast using a data set spanning from 2000-2016</p>
+    <p>Examined consumer complaints about Comcast using a data set spanning from 2000-2016.
+    
+    Firstly, we preprocess the data and divides complaints based on their ratings. Then, we employ TF-IDF vectorization to identify the most common words in negative comments, focusing on topics like Comcast packages and customer support wait times.
+
+Utilizing Latent Dirichlet Allocation (LDA), identify topics within the negative complaints and prints key terms per topic, and further examine complaints related to customer service.
+
+Lastly, utilize BERTopic, a state-of-the-art topic modeling technique, to identify and visualize topics within negative complaints, notably highlighting issues similar to customer service complaints.
+
+The process provides an insightful exploration of consumer sentiments, shedding light on prevalent issues and sentiments within Comcast consumer complaints.
+    </p>
   </li>
 
   <li class="project">
@@ -71,7 +80,6 @@ Two models, Logistic Regression and Random Forest, are trained and evaluated. Fo
 Hyperparameter tuning is performed for the Random Forest model using GridSearchCV to optimize its performance. The best parameters are identified and applied to the model, and validation curves are plotted to assess the impact of varying parameters.
 
 Feature importances are analyzed to uncover the most influential variables in the Random Forest model. Finally, the model's performance is evaluated on the test set, and a confusion matrix is generated to assess its classification accuracy.
-
 </p>
   </li>
 
