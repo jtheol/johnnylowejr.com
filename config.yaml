@@ -208,23 +208,18 @@ menu:
           url: https://github.com/jtheol
           params:
               icon: brand-github
-        
-        - identifier: linkedin
-            name: LinkedIn
-            url: https://www.linkedin.com/in/johnny-l-1aaa36243/
-            params:
-                icon: brand-linkedin
-        - identifier: tableau
-            name: Tableau
-            url: https://public.tableau.com/app/profile/johnny.lowe/vizzes
-            params:
-                icon: brand-tableau
 
-        # - identifier: twitter
-        #   name: Twitter
-        #   url: https://twitter.com
-        #   params:
-        #       icon: brand-twitter
+        - identifier: linkedin
+          name: LinkedIn
+          url: https://www.linkedin.com/in/johnny-l-1aaa36243/
+          params:
+              icon: brand-linkedin
+                
+        - identifier: tableau
+          name: Tableau
+          url: https://public.tableau.com/app/profile/johnny.lowe/vizzes
+          params:
+              icon: brand-tableau
 
 related:
     includeNewer: true
