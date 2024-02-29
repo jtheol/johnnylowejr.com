@@ -65,7 +65,7 @@ params:
         emoji: 🚀
         subtitle: A curious data scientist passionate about deriving insights from data. 
         avatar:
-            enabled: true
+            enabled: false
             local: true
             src: img/avatar.jpg
 
@@ -188,7 +188,7 @@ params:
         toggle: false
 
         # Available values: auto, light, dark
-        default: auto
+        default: light
 
     imageProcessing:
         cover:
@@ -209,11 +209,11 @@ menu:
           params:
               icon: brand-github
 
-        - identifier: linkedin
-          name: LinkedIn
-          url: https://www.linkedin.com/in/johnny-l-1aaa36243/
-          params:
-              icon: brand-linkedin
+        # - identifier: linkedin
+        #   name: LinkedIn
+        #   url: https://www.linkedin.com/in/johnny-l-1aaa36243/
+        #   params:
+        #       icon: brand-linkedin
                 
         - identifier: tableau
           name: Tableau
