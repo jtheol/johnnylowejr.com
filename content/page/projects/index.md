@@ -62,6 +62,19 @@ Overall, topic modeling provided a useful unsupervised method to extract importa
   </li>
 
   <li class="project">
+    <h3>iFood Marketing Customer Behavior Analysis (WIP)</h3>
+    <p>
+      iFood, the foremost food delivery app in Brazil, operates across over a thousand cities, relying heavily on sustaining robust customer engagement to solidify its market leadership. Data Analysts within the company's data team face the perpetual challenge of furnishing valuable insights through open scope projects. This case study presents a sample dataset, simulating meta-information on customer interactions with iFood campaigns. Your task is to decipher the data, unearth business opportunities, and derive insights to optimize campaign outcomes and drive value for the company. By performing robust exploratory analysis and leveraging advanced analytics tools, you're expected to uncover actionable insights and propose data-driven strategies aimed at enhancing campaign effectiveness and bolstering customer engagement, aligning with iFood's strategic imperative of data-centric decision-making and continuous optimization.
+    </p>
+    <p>Key Objectives</p>
+    <ul>
+        <li>Conduct thorough data exploration to uncover insights, establish relationships, and enhance comprehension of customer characteristics.</li>
+        <li>Propose and articulate a customer segmentation strategy derived from observed customer behaviors.</li>
+        <li>Engineer and validate a predictive model to empower the company in maximizing profits from upcoming marketing campaigns.</li>
+    </ul>
+  </li>
+
+  <li class="project">
     <h3>Topic Modeling in Customer Feedback: Insights from Comcast Complaints</h3>
     <p>Examined consumer complaints about Comcast using a data set spanning from 2000-2016.
 
