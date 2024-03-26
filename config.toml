@@ -10,7 +10,6 @@ paginate = 9999
 minify = true
 disableHugoGeneratorInject = true
 
-
 [taxonomies]
   tag = "tags"
   category = "categories"
