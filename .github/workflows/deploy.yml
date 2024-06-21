@@ -1,5 +1,5 @@
 ---
-name: Deploy Hugo site via GitHub Pages
+name: Deploy website via github action.
 
 on:
   push:
